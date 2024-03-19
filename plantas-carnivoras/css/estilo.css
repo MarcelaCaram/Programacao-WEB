@@ -1,0 +1,55 @@
+body {
+    background-image: url('../imagens/fundo.png');
+    padding: 15px;
+    border: 1cm solid white;
+}
+
+p {
+    font-family: "Arial";
+}
+
+h2 {
+    font-family: "Times New Roman";
+    font-size: 24px;
+    color: limegreen;
+}
+
+blockquote {
+    font-family: "Arial";
+}
+
+table {
+    font-family: "Arial";
+    border-collapse: collapse;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+td, th {
+    border: 2px solid silver;
+    text-align: center;
+}
+
+.page-break {
+    page-break-before: always;
+}
+
+.tituloDaPagina {
+    font-family: "Times New Roman";
+    font-size: 28px;
+    color: limegreen;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img {
+    border: 4px solid limegreen;
+}
+
+.image-container-succao img {
+    border: 4px solid limegreen;
+}
